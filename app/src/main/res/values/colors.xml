@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cdfbf6</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="toolbarbackground">#aabbcc</color>
+    <!--设置页面的透明度-->
+    <color name="translucent_background">#8FFFFFFF</color>
+    <color name="button_transparent_background">#00000000</color>
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">遥控小车</string>
+    <string name="teststring">title</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="velocity">速度</string>
+    <string name="grid_button_describtion">方向键</string>
+    <string name="track" >轨迹</string>
+    <string name="track_on">打开轨迹</string>
+    <string name="track_clear">清除轨迹</string>
+    <!-- Strings related to Settings -->
+
+</resources>

@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!--Customize your theme here. -->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/my_actionbar_style</item>
+        <item name="android:actionMenuTextColor">@android:color/holo_blue_light</item>
+
+        <!-- item背景色 黄色-->
+        <item name="android:itemBackground">#4BA9E8</item>
+        <item name="android:itemTextAppearance">@style/ActionBarMenuText</item>
+
+
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupMenu.Example</item>
+        <!--<item name="popupMenuStyle">@style/PopupMenu.Example</item>-->
+
+        <!--菜单文字 大小颜色-->
+        <item name="actionMenuTextAppearance">@style/ActionBarMenu</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="my_actionbar_style" parent="Widget.AppCompat.Light.ActionBar.Solid">
+        <!-- 设置actionbar 背景色 透明 -->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="height">30dp</item>
+        <item name="android:alpha">0.5</item>
+    </style>
+
+    <style name="ActionBarMenuText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="PopupMenu.Example" parent="Theme.AppCompat.Light">
+        <item name="android:popupBackground">#ffffff</item>
+        <!--<item name="android:background">#ffffff</item>-->
+    </style>
+
+    <style name="ActionBarMenu" parent="@android:style/TextAppearance.Holo.Large">
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+
+
+    <!--悬浮按钮效果-->
+    <style name="my_float_button_style" parent="Widget.AppCompat.Button.Borderless">
+        <!--<item name="android:background">@android:color/transparent</item>-->
+        <item name="android:alpha">0.5</item>
+        <item name="android:height">30dp</item>
+    </style>
+
+    <style name="my_set_style" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/translucent_background</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+<!--按钮圆形效果-->
+    <style name="RippleWhite">
+        <item name="android:colorControlHighlight">@android:color/darker_gray</item>
+        <item name="android:radius">25dp</item>
+        <item name="android:shape">oval</item>
+    </style>
+
+
+</resources>

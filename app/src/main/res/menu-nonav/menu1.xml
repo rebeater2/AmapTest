@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:title="图传"
+        android:icon="@drawable/picture"
+        app:showAsAction="always|withText">
+        <menu>
+            <item
+                android:id="@+id/track_on"
+                android:title="打开图传" />
+            <item
+                android:id="@+id/track_clear"
+                android:title="关闭图传">
+
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/single_select"
+        android:icon="@drawable/location_marker"
+        android:title="轨迹"
+        app:showAsAction="always|withText">
+        <menu> <!-- 定义一组单选菜单项-->
+            <group android:checkableBehavior="none"> <!-- 定义多个菜单项-->
+                <item
+                    android:id="@+id/font_12"
+                    android:title="打开轨迹" />
+                <item
+                    android:id="@+id/font_14"
+                    android:title="清除轨迹" />
+                <item
+                    android:id="@+id/font_16"
+                    android:title="保存轨迹" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="摇杆"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/text_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/speedindecator"
+        android:title="0.0m/s"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/signal_ctrl"
+        android:icon="@drawable/signal_wireless"
+        android:title="@string/teststring"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/set_address"
+                android:title="设置地址">
+
+            </item>
+            <item
+                android:id="@+id/disconnect"
+                android:title="断开连接">
+
+            </item>
+            <item
+                android:id="@+id/reconnect"
+                android:title="重新连接">
+
+            </item>
+            <item
+                android:id="@+id/conncetiontest"
+                android:title="测试连接">
+
+            </item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/toolbar_left_button4"
+        android:icon="@drawable/signalfull"
+        android:title="@string/teststring"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/battery"
+        android:icon="@drawable/battery"
+        android:title="100%"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/set_button"
+        android:icon="@drawable/set_icon"
+        android:title="@string/teststring"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/reserved1"
+                android:title="保留">
+
+            </item>
+            <item
+                android:id="@+id/about"
+                android:title="关于">
+
+            </item>
+            <item
+                android:id="@+id/exit"
+                android:title="退出">
+
+            </item>
+        </menu>
+
+    </item>
+
+</menu>
